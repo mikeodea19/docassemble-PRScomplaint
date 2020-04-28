@@ -45,7 +45,7 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
 setup(name='docassemble.PRScomplaint',
       version='0.0.1',
       description=('A docassemble extension.'),
-      long_description='My description',
+      long_description='Hello! This app will help you file a Problem Resolution System (PRS) Complaint with the Massachusetts Department of Elementary & Secondary Education (DESE). A PRS Complaint asks the Massachusetts DESE to fix concerns that a person has about a student’s suspension from school.\r\n\r\nA PRS Complaint describes:\r\n\r\nWhat the school did about the suspension;\r\nWhether the parent/guardian was notified about the suspension; and\r\nWhat concerns the person filing the complaint has about the student’s suspension\r\nThe Massachusetts DESE must look at your PRS Complaint and send a letter deciding what should happen to resolve the problem within 60 days.\r\n\r\nThe app will ask some questions to make sure a PRS Complaint is the right form for you to complete. After that, it will ask for basic contact information from you, details about what happened with the student’s suspension, and then create a PRS Complaint for you to send to the Massachusetts DESE.',
       long_description_content_type='text/markdown',
       author="Mike O'Dea",
       author_email='modea@suffolk.edu',
